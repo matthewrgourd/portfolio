@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c503b77656.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="header-content-div">
+            <a href="#home-sec">
+                <img src="./favicon.ico" alt="Favicon" id="header-img" /></a>
+            <nav id="nav-bar">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#skills" class="nav-link">SKILLS</a>
+                <a href="#projects" class="nav-link">PROJECTS</a>
+                <a href="https://matthewrgourd.github.io/cv/" target="_blank" class="nav-link">CV</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home-sec" class="flexible home-sec">
+            <div class="eye-grabber-img">
+                <img src="./images/matt-gourd.png" alt="profile picture" />
+            </div>
+            <div class="eye-grabber">
+                <h1>Hi, I'm Matt Gourd</h1>
+                <h2>
+                    Documentation manager, web developer
+                </h2>
+                <button class="btn" onclick="window.location.href = '#about';">
+                    Find out more
+                </button>
+            </div>
+        </section>
+        <section id="about" class="sec-padding">
+            <h3 class="section-heading">ABOUT</h3>
+            <div class="sec-content-div flexible">
+                <p>Documentation manager with over 20 years in digital. Champion at writing documentation for software developers. Cheerful, enthusiastic, and approachable to colleagues at all levels.</p>
+                    
+                <p>A web developer and experimental artist in my spare time, my interests include DJ-ing, electronic music production, and optical artistry.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="sec-padding">
+            <h3 class="section-heading">SKILLS</h3>
+            <div class="sec-content-div">
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="./images/html-5-logo.svg" alt="HTML" />
+                    </div>
+
+                    <div class="txt-container">
+                        <br />
+                        <br />
+
+                        <p>HTML</p>
+
+
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="icon-container">
+                        <img src="./images/css3-alt.svg" alt="CSS" />
+                    </div>
+                    <div class="txt-container">
+                        <br />
+                        <br />
+
+                        <p>CSS</p>
+
+                    </div>
+                    
+                </div>
+            
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="projects" class="sec-padding">
+            <h3 class="section-heading">PROJECTS</h3>
+            <div class="sec-content-div flexible">
+                <div class="tile">
+                    <a href="https://developer.vivawallet.com" target="_blank"><img src="images/viva-wallet-developer-portal.png" alt="screenshot of viva wallet developer portal" /></a>
+                    <h4>Viva Wallet Developer Portal</h4>
+                    <p>
+                        A developer portal I built for Viva Wallet. It's a hub for business that want to integrate their applications with Viva Wallet's payment platform.
+                    </p>
+                    <br />
+                    <p>Tech stack: Hugo, Netlify<p>
+                </div>
+                <div class="tile">
+                    <a href="https://developer.vivawallet.com/apis-for-payments/payment-api/ "target="_blank"><img src="images/viva-wallet-api-docs.png" alt="screenshot of viva wallet api docs" /></a>
+                    <h4>Viva Wallet API docs</h4>
+                    <p>
+                        A set of online API docs I created explaining how to use the Viva Wallet Payment API.
+                    </p>
+                    <br />
+                    <p>Tech stack: Hugo, <a href="https://github.com/Redocly/redoc" target="_blank">Redocly/Redoc</a>, Netlify<p>
+                </div>
+                <div class="tile">
+                    <a href="https://stupendous-fox-240544.netlify.app/" target="_blank"><img src="images/alien-101.png" alt="screenshot of artist website" /></a>
+                    <h4>Artist website</h4>
+                    <p>
+                        A website I built for a visual artist.
+                    </p>
+                    <br />
+                    <p><a href="https://bitbucket.org/miraclmatt/alien-101.com/src/master/" target="_blank"><i class="fa-brands fa-bitbucket fa-xl"></i></a></p>
+                </div>
+                <div class="tile">
+                    <a href="https://zingy-seahorse-a1fbfb.netlify.app/" target="_blank"><img src="images/colour-art.png" alt="screenshot of optical art website (colour)" /></a>
+                    <h4>Optical art (colour)</h4>
+                    <p>
+                        A website containing digitized versions of my colour optical art.
+                    </p>
+                    <br />
+                    <p class="fa"><a href="https://github.com/matthewrgourd/colour-art" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></p>
+                </div>
+                <div class="tile">
+                    <a href="https://creative-semifreddo-9c8803.netlify.app/" target="_blank"><img src="images/op-art.png" alt="screenshot of optical art website (black and white)" /></a>
+                    <h4>Optical art (b & w)</h4>
+                    <p>
+                        A website containing digitized versions of my black and white optical art. 
+                    </p>
+                    <br />
+                    <p><a href="https://github.com/matthewrgourd/op-art" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></p>
+                </div>
+      
+            </div>
+        </section>
+
+        <section class="sec-padding" id="contact">
+            <h3 class="section-heading">CONTACT</h3>
+            <div class="sec-content-div flexible">
+                <h6>If you want to get in touch, drop me an email:</h6>
+                <form id="form" action="mailto:mattgourd@gmail.com?subject=Hi%20there" method="POST">
+                    <input type="email" name="email" id="email" placeholder="Your email address" required />
+                    <input type="submit" class="btn" id="submit" value="Say hello" />
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        Created by
+        <a href="#">Matt Gourd</a>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
