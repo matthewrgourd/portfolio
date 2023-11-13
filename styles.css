@@ -204,6 +204,7 @@ nav {
     margin: 0;
     padding: 5rem 0 1rem 0;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .sec-content-div {
@@ -211,7 +212,6 @@ nav {
     text-align: start;
     padding: 0 2rem 5rem 3rem;
     width: auto;
-    justify-content: space-around;
     max-width: 95rem;
     margin: 0 auto;
 }
@@ -310,15 +310,13 @@ nav {
     height: max-content;
     display: flex;
     flex-flow: row wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: flex-start;
-    margin: 2rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: margin: 2rem 0 2rem 2rem;
     width: 100%;
 
     @media (max-width: 768px) {
         flex-flow: row nowrap;
-        /* Items in a single column for screens up to 768px */
     }
 }
 
@@ -343,9 +341,15 @@ nav {
     flex: 1;
 }
 
+.icon-container {
+    text-align: center; /* Center the text horizontally under each icon */
+}
+
+.icon-container i,
 .icon-container img {
-    max-height: 100%;
-    max-width: 100%;
+    /* Additional styling for the icon */
+    display: block; /* Ensure the icon is a block element for proper centering */
+    margin: 0 auto; /* Center the icon horizontally */
 }
 
 .bars .txt-container {
