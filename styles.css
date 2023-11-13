@@ -177,7 +177,7 @@ nav {
     border-radius: 0.4rem;
     padding: 2rem;
     background-color: #e23d3d;
-    color: #fafafa;
+    color: #F7FAFC;
     outline: 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.2s;
@@ -221,7 +221,7 @@ nav {
 }
 
 #about {
-    background-color: #fafafa;
+    background-color: #F7FAFC;
 }
 
 #about img {
@@ -379,7 +379,7 @@ nav {
 
 #contact {
     background-color: #cb3737;
-    color: #fafafa;
+    color: #F7FAFC;
 }
 
 #contact h6 {
@@ -413,7 +413,7 @@ footer {
     text-align: center;
     padding: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    color: #fafafa;
+    color: #F7FAFC;
 }
 
 footer a {
