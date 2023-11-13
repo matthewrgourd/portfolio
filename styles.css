@@ -202,14 +202,14 @@ nav {
     font-weight: 500;
     line-height: 1.2;
     margin: 0;
-    padding: 5rem 0 5rem 0;
+    padding: 5rem 0 1rem 0;
     text-align: center;
 }
 
 .sec-content-div {
     font-size: 2rem;
     text-align: start;
-    padding: 0 2rem 5rem 2rem;
+    padding: 0 2rem 5rem 3rem;
     width: auto;
     justify-content: space-around;
     max-width: 95rem;
@@ -232,19 +232,19 @@ nav {
     box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
 }
 
-#varieties {
+#projects {
     background-color: #e3e3e3;
 }
 
 .tile {
     background-color: #f5f3f4;
     height: 40rem;
-    width: 25rem;
+    width: 30rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 0.5rem;
     transition: all 0.2s;
     padding: 1.5rem;
-    margin: 1.5rem;
+    margin: 3rem;
 }
 
 @media (max-width: 680px) {
@@ -378,7 +378,7 @@ nav {
 }
 
 #contact {
-    background-color: #cb3737;
+    background-color: #666666;
     color: #F7FAFC;
 }
 
@@ -409,7 +409,7 @@ input[type="email"] {
 
 footer {
     font-size: 1.4rem;
-    background-color: #ce2f2f;
+    background-color: #000;
     text-align: center;
     padding: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
