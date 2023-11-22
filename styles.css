@@ -170,7 +170,6 @@ nav {
 
 }
 
-
 .btn {
     border: none;
     font-size: 2rem;
@@ -282,12 +281,49 @@ nav {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 
+.tile-skills {
+    background-color: #f5f3f4;
+    height: 12rem;
+    width: 15rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+
+.tile-skills img {
+    width: 60%;
+    max-width: 48rem;
+    margin-left: 20px;
+
+
+}
+
+
+.tile-skills h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    margin-left: 50px;
+    color: #EF233C;
+    margin: 0px;
+}
+
+.tile-skills:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+}
+
+.tile-skills h4 {
+
+    margin-left: 50px;
+}
 
 #our-service {
     background-color: #F5F3F4;
 }
-
-
 
 #our-service .sec-content-div {
     display: grid;
@@ -318,6 +354,24 @@ nav {
     @media (max-width: 768px) {
         flex-flow: row nowrap;
     }
+}
+
+h4.html {
+
+    margin-left: 40px;
+}
+
+
+
+h4.css {
+
+    margin-left: 50px;
+}
+
+
+h4.js {
+
+    margin-left: 30px;
 }
 
 .javaScript {
