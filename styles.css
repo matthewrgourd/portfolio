@@ -22,7 +22,7 @@ body {
     height: max-content;
     font-family: "Montserrat", sans-serif;
     width: 100%;
-    background-color: #F7FAFC;
+    background-color: #495057;
     padding: 1rem 0;
     position: sticky;
     z-index: 99;
@@ -81,7 +81,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: #161A1D;
+    color: #f8f9fa;
     margin: 0 0.5rem;
     padding: 0 0.6rem;
     transition: border-bottom 0.2s;
@@ -176,7 +176,7 @@ nav {
     border-radius: 0.4rem;
     padding: 2rem;
     background-color: #e23d3d;
-    color: #F7FAFC;
+    color: #F5F3F4;
     outline: 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.2s;
@@ -220,7 +220,7 @@ nav {
 }
 
 #about {
-    background-color: #F7FAFC;
+    background-color: #F5F3F4;
 }
 
 #about img {
@@ -437,7 +437,7 @@ h4.js {
 
 #contact {
     background-color: #666666;
-    color: #F7FAFC;
+    color: #F5F3F4;
 }
 
 #contact h6 {
@@ -471,7 +471,7 @@ footer {
     text-align: center;
     padding: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    color: #F7FAFC;
+    color: #F5F3F4;
 }
 
 footer a {
