@@ -181,15 +181,14 @@ nav {
 }
 
 .eye-grabber h1 {
-    font-size: 4rem;
-    line-height: 1.5;
+    font-size: 3.5rem;
+    line-height: 2.5;
     font-weight: 600;
 }
 
 .eye-grabber h2 {
     font-size: 2.4rem;
     font-weight: 500;
-    color: #666;
 }
 
 .eye-grabber-img {
@@ -254,10 +253,6 @@ nav {
 
 .sec-padding {
     padding: 1rem 0 1rem 0;
-}
-
-#about {
-    background-color: #F5F3F4;
 }
 
 #about img {
