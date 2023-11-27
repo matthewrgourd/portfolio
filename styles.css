@@ -246,7 +246,7 @@ nav {
 .sec-content-div {
     font-size: 2rem;
     text-align: start;
-    padding: 0 2rem 5rem 3rem;
+    padding: 0 2rem 2rem 3rem; /* Adjust the padding-bottom value */
     width: auto;
     max-width: 95rem;
     margin: 0 auto;
@@ -358,24 +358,21 @@ nav {
     margin-left: 50px;
 }
 
-#our-service {
+#projects {
     background-color: #F5F3F4;
 }
 
-#our-service .sec-content-div {
+#projects .sec-content-div {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    /* Adjust the gap as needed */
+    grid-template-columns: repeat(3, 1fr); /* Three columns by default */
+    gap: 20px; /* Adjust the gap as needed */
 
-    @media (max-width: 768px) {
-        grid-template-columns: repeat(2, 1fr);
-        /* Two columns for screens up to 768px */
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for screens up to 1024px */
     }
 
-    @media (max-width: 480px) {
-        grid-template-columns: repeat(1, 1fr);
-        /* Single column for screens up to 480px */
+    @media (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr); /* Single column for screens up to 768px */
     }
 }
 
