@@ -377,7 +377,7 @@ nav {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin: margin: 2rem 0 2rem 2rem;
+    margin: 2rem 0 2rem 2rem;
     width: 100%;
 
     @media (max-width: 768px) {
