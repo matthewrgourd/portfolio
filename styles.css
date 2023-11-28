@@ -36,6 +36,10 @@ body {
     box-sizing: border-box;
   }
   
+  html {
+    scroll-padding-top: 4rem;
+  }
+
   textarea {
     height: 150px; /* Larger height for the 'message' textarea */
     resize: vertical; /* Allowing vertical resizing */
@@ -73,6 +77,58 @@ body {
         text-align: center;
         height: auto;
     }
+}
+
+h4.html {
+
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+
+
+h4.css {
+
+    margin-left: 56px;
+    margin-top: 5px;
+}
+
+
+h4.js {
+
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+h4.markdown {
+
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+h4.git {
+
+    margin-left: 56px;
+    margin-top: 5px;
+}
+
+h4.postman {
+
+    margin-left: 32px;
+    margin-top: 5px;
+}
+
+
+h4.vs {
+
+    margin-left: 34px;
+    margin-top: 5px;
+}
+
+h4.hugo {
+
+    margin-left: 48px;
+    margin-top: 5px;
 }
 
 .header-content-div {
@@ -294,14 +350,6 @@ nav {
     border-radius: 0.5rem;
 }
 
-.tile h4 {
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 1rem 0;
-    color: #EF233C;
-    margin: 0px;
-}
-
 .tile p {
     font-size: 1.6rem;
     padding: 0;
@@ -315,7 +363,7 @@ nav {
 
 .tile-skills {
     background-color: #f5f3f4;
-    height: 12rem;
+    height: 15rem;
     width: 15rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 0.5rem;
@@ -323,7 +371,6 @@ nav {
     padding: 1.5rem;
     margin: 1.5rem;
 }
-
 
 .tile-skills img {
     width: 60%;
@@ -333,25 +380,12 @@ nav {
 
 }
 
-
-.tile-skills h4 {
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 1rem 0;
-    margin-left: 50px;
-    color: #EF233C;
-    margin: 0px;
-}
-
 .tile-skills:hover {
     transform: scale(1.05);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 
-.tile-skills h4 {
 
-    margin-left: 50px;
-}
 
 #our-service {
     background-color: #F5F3F4;
@@ -384,34 +418,6 @@ nav {
         flex-flow: row nowrap;
     }
 }
-
-h4.html {
-
-    margin-left: 40px;
-}
-
-
-
-h4.css {
-
-    margin-left: 50px;
-}
-
-
-h4.js {
-
-    margin-left: 30px;
-}
-
-html {
-    scroll-padding-top: 4rem;
-  }
-
-.javaScript {
-    margin-left: 25px;
-
-}
-
 
 @media (max-width: 990px) {
     .bars {
