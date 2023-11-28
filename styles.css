@@ -268,7 +268,7 @@ nav {
     border-radius: 0.4rem;
     padding: 2rem;
     background-color: #e23d3d;
-    color: #F5F3F4;
+    color: #EEE2DE;
     outline: 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.2s;
@@ -290,7 +290,7 @@ nav {
 .section-heading {
     font-size: 2.5rem;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.2;
     margin: 0;
     padding: 5rem 0 1rem 0;
@@ -324,7 +324,7 @@ nav {
 }
 
 .tile {
-    background-color: #f5f3f4;
+    background-color: #EEE2DE;
     height: 40rem;
     width: 25rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -362,7 +362,7 @@ nav {
 }
 
 .tile-skills {
-    background-color: #f5f3f4;
+    background-color: #EEE2DE;
     height: 15rem;
     width: 15rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -388,7 +388,7 @@ nav {
 
 
 #our-service {
-    background-color: #F5F3F4;
+    background-color: #EEE2DE;
 }
 
 #projects .sec-content-div {
@@ -476,7 +476,7 @@ nav {
 
 #contact {
     background-color: #2B2A4C;
-    color: #F5F3F4;
+    color: #EEE2DE;
 }
 
 #contact h6 {
@@ -501,10 +501,11 @@ footer {
     text-align: center;
     padding: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    color: #F5F3F4;
+    color: #EEE2DE;
 }
 
 footer a {
     color: #e3e3e3;
     text-decoration: none;
 }
+
