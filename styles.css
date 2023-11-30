@@ -247,13 +247,9 @@ nav {
     font-weight: 500;
 }
 
-.eye-grabber-img {
-    flex: 1;
-    outline: 0;
-    overflow: hidden;
-    line-height: 0;
-    position: relative;
-}
+<div class="eye-grabber-img">
+    <img src="your-image.jpg" srcset="your-image.jpg 1200w, your-image-medium.jpg 800w, your-image-small.jpg 400w" alt="Eye Grabber Image">
+</div>
 
 @media (max-width: 800px) {
     .eye-grabber-img {
