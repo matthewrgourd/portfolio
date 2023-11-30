@@ -250,8 +250,6 @@ nav {
 .eye-grabber-img {
     flex: 1;
     outline: 0;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    transition: all 0.2s;
     overflow: hidden;
     line-height: 0;
     position: relative;
@@ -271,12 +269,6 @@ nav {
     padding: 0;
     line-height: initial;
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-}
-
-/* Add hover effect */
-.eye-grabber-img:hover {
-    transform: scale(1.05); /* Scale the image on hover */
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 
 .btn {
