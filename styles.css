@@ -226,7 +226,7 @@ nav {
 
 .eye-grabber {
     flex: 1;
-    padding: 0 8rem;
+    padding: 0 0rem;
     margin-top: 45px;
 }
 
@@ -247,24 +247,18 @@ nav {
     font-weight: 500;
 }
 
-<div class="eye-grabber-img">
-    <img src="your-image.jpg" srcset="your-image.jpg 1200w, your-image-medium.jpg 800w, your-image-small.jpg 400w" alt="Eye Grabber Image">
-</div>
-
-@media (max-width: 800px) {
-    .eye-grabber-img {
-        display: none; /* Hide the entire container in mobile view */
-    }
+.eye-grabber-img {
+    flex: 1;
+    outline: 0;
+    line-height: 0;
+    position: relative;
 }
 
 .eye-grabber-img img {
-    width: 100%; /* Ensure the image width takes up 100% of its container */
-    height: auto; /* Allow the image height to adjust proportionally */
     display: block;
     margin: 0;
     padding: 0;
     line-height: initial;
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
 }
 
 .btn {
@@ -277,6 +271,7 @@ nav {
     outline: 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.2s;
+    margin-top: 30px;
 }
 
 .btn:hover {
@@ -329,7 +324,7 @@ nav {
 }
 
 .tile {
-    background-color: #F6F6F6;
+    background-color: #EEE2DE;
     height: 40rem;
     width: 25rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -367,7 +362,7 @@ nav {
 }
 
 .tile-skills {
-    background-color: #F6F6F6;
+    background-color: #EEE2DE;
     height: 15rem;
     width: 15rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -393,7 +388,7 @@ nav {
 
 
 #our-service {
-    background-color: #F6F6F6;
+    background-color: #EEE2DE;
 }
 
 #projects .sec-content-div {
@@ -481,7 +476,7 @@ nav {
 
 #contact {
     background-color: #2B2A4C;
-    color: #F6F6F6;
+    color: #EEE2DE;
 }
 
 #contact h6 {
@@ -506,7 +501,7 @@ footer {
     text-align: center;
     padding: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    color: #F6F6F6;
+    color: #EEE2DE;
 }
 
 footer a {
