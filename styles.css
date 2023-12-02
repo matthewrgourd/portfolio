@@ -27,10 +27,10 @@ body {
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 300px; /* Set width to 300 pixels for all input fields and textarea */
+    width: 300px;
     padding: 8px;
-    font-family: inherit; /* Inheriting font from the body */
-    font-size: 16px; /* Setting font size to match other fields */
+    font-family: inherit; 
+    font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -41,8 +41,8 @@ body {
   }
 
   textarea {
-    height: 150px; /* Larger height for the 'message' textarea */
-    resize: vertical; /* Allowing vertical resizing */
+    height: 150px; 
+    resize: vertical; 
   }
   
   input[type="submit"] {
@@ -255,11 +255,17 @@ nav {
     position: relative;
 }
 
-.eye-grabber-img img {
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: initial;
+@media (max-width: 800px) {
+    .eye-grabber-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eye-grabber-img img {
+        max-width: 100%; 
+        height: auto; 
+    }
 }
 
 .btn {
@@ -302,7 +308,7 @@ nav {
 .sec-content-div {
     font-size: 2rem;
     text-align: start;
-    padding: 0 2rem 2rem 3rem; /* Adjust the padding-bottom value */
+    padding: 0 2rem 2rem 3rem; 
     width: auto;
     max-width: 95rem;
     margin: 0 auto;
@@ -386,23 +392,17 @@ nav {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
 }
 
-
-
-#our-service {
-    background-color: #EEE2DE;
-}
-
 #projects .sec-content-div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns by default */
-    gap: 20px; /* Adjust the gap as needed */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
 
     @media (max-width: 1024px) {
-        grid-template-columns: repeat(2, 1fr); /* Two columns for screens up to 1024px */
+        grid-template-columns: repeat(2, 1fr); 
     }
 
     @media (max-width: 768px) {
-        grid-template-columns: repeat(1, 1fr); /* Single column for screens up to 768px */
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
 
@@ -436,14 +436,13 @@ nav {
 }
 
 .icon-container {
-    text-align: center; /* Center the text horizontally under each icon */
+    text-align: center; 
 }
 
 .icon-container i,
 .icon-container img {
-    /* Additional styling for the icon */
-    display: block; /* Ensure the icon is a block element for proper centering */
-    margin: 0 auto; /* Center the icon horizontally */
+    display: block; 
+    margin: 0 auto; 
 }
 
 .bars .txt-container {
